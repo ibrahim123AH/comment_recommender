@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+tests/
+.streamlit/
+test*.py
+notebooks/
+/venv/
+.env
