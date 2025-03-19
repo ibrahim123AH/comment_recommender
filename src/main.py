@@ -59,11 +59,11 @@ with right_col:
 
             st.success("Processing completed!")
             # print(extracted_text)
-            print(f"\033[91m{extracted_text}\033[0m")
-            print(f"\033[91m{sections}\033[0m")
+            # print(f"\033[91m{extracted_text}\033[0m")
+            # print(f"\033[91m{sections}\033[0m")
             # Display each key-value pair in a separate box
             for key, value in sections.items():
-                height = max(68, len(value) // 2) 
+                height = max(68, len(value) // 4) 
                 # st.markdown(f"**{key}:**")
                 st.markdown(f"""
                 <div style='margin-top: 0px; margin-bottom: 0px;'>
